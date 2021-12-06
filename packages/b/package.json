@@ -1,0 +1,28 @@
+{
+  "name": "b",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Tirke <tschersach@gmail.com>",
+  "homepage": "https://github.com/Tirke/lerna-ts-demo#readme",
+  "license": "MIT",
+  "main": "lib/b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "typings": "lib/b.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tirke/lerna-ts-demo.git"
+  },
+  "publishConfig": {"access": "public"},
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/Tirke/lerna-ts-demo/issues"
+  }
+}
