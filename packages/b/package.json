@@ -19,7 +19,8 @@
     "url": "git+https://github.com/Tirke/lerna-ts-demo.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@tirke:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "tsc": "tsc"
