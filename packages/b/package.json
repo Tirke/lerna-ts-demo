@@ -1,6 +1,6 @@
 {
   "name": "b",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Tirke <tschersach@gmail.com>",
   "homepage": "https://github.com/Tirke/lerna-ts-demo#readme",
@@ -18,7 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/Tirke/lerna-ts-demo.git"
   },
-  "publishConfig": {"access": "public"},
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "tsc": "tsc"
   },
